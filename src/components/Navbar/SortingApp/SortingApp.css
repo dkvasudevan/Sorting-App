@@ -1,0 +1,27 @@
+.grid table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: x-large;
+    width: 1000px;
+    text-align: center;
+
+  }
+
+
+.sort-button {
+  height: 42px;
+  width: 80px;
+  border: 1px solid #c8c9ce;
+  background-color: #F24B4B;
+  position: absolute;
+  top: 6%;
+  right: 65px;
+  padding: 5px; 
+  cursor: pointer;
+  font-weight: 700;
+  font-family: 'roboto';
+  font-size: large;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}

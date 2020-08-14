@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu {
+    background-color: rgba(2, 74, 146, 0.973) ;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 1500px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    position: relative;
+}
+
+
+.menu__link {
+    color: #3a3e47;
+    display: inline-block;
+    height: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 20;
+
+}
+
+.menu__link:hover {
+    color: #ffaa3b;
+}
+.dropdown {
+    color: white;
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+.dropdown-list {
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 30px;
+  min-width: 175px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  display: none;
+
+
+}
+  
+.dropdown:hover .dropdown-list {
+    display: inline-block;
+    margin-top: 230px;
+    list-style-type: none;
+    background-color:  rgba(2, 74, 146, 0.973);
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+
+.menu__logo {
+    
+    height: 100%;
+    width: 92px;
+    margin: 10px;
+    padding: 15px;
+    position: absolute;
+    left: 15px;
+    color: white;
+}
+
+
+.sorts{
+    height: 42px;
+    color: white;
+    border: transparent;
+    width: 100%;
+    font-family: 'roboto';
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    background-color:  rgba(2, 74, 146, 0.973);
+    padding-left: 20px;}
+.sorts:hover{
+    color: #ffaa3b;
+}
+.sorts:focus{
+    color: #ffaa3b;
+}
+
+.tri {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 8px solid;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    -webkit-transition: border-color 0.25s, color 0.25s;
+    transition: border-color 0.25s, color 0.25s;
+}
+
+
+.enter_num {
+    position: absolute;
+    margin-top: 10%;
+    font-weight: 700;
+    font-family: 'roboto';
+    font-size: large;
+    color: black;
+
+}
+
+.input {
+    position: absolute;
+    margin-top: 12%;
+}
